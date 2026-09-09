@@ -9,16 +9,35 @@ window.addEventListener('scroll', () => {
 // ===== HAMBURGER =====
 const hamburger = document.getElementById('hamburger-btn');
 const navList = document.getElementById('nav-links-list');
+
+function closeMobileMenu() {
+  hamburger.classList.remove('open');
+  navList.classList.remove('open');
+  hamburger.setAttribute('aria-expanded', 'false');
+}
+
 hamburger.addEventListener('click', () => {
-  hamburger.classList.toggle('open');
-  navList.classList.toggle('open');
-  hamburger.setAttribute('aria-expanded', hamburger.classList.contains('open'));
+  const isOpen = hamburger.classList.toggle('open');
+  navList.classList.toggle('open', isOpen);
+  hamburger.setAttribute('aria-expanded', isOpen);
 });
+
 navList.querySelectorAll('.nav-link').forEach(link => {
-  link.addEventListener('click', () => {
-    hamburger.classList.remove('open');
-    navList.classList.remove('open');
-  });
+  link.addEventListener('click', closeMobileMenu);
+});
+
+// Close mobile menu when clicking outside
+document.addEventListener('click', (e) => {
+  if (navList.classList.contains('open') && !navbar.contains(e.target)) {
+    closeMobileMenu();
+  }
+});
+
+// Close mobile menu on Escape key
+document.addEventListener('keydown', (e) => {
+  if (e.key === 'Escape' && navList.classList.contains('open')) {
+    closeMobileMenu();
+  }
 });
 
 // ===== ACTIVE NAV HIGHLIGHT =====
