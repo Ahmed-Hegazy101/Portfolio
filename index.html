@@ -1,305 +1,444 @@
-<!doctype html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Ahmed Mohamed Ibrahim Hegazy | Portfolio</title>
-    <!-- Google Fonts -->
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
-      rel="stylesheet"
-    />
-    <!-- Font Awesome Icons -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
-    />
-    <!-- Main CSS -->
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <!-- Header & Navigation -->
-    <header class="header">
-      <div class="container nav-container">
-        <a href="#" class="logo">Ahmed <span>Hegazy</span></a>
-        <nav class="navbar">
-          <ul class="nav-links">
-            <li><a href="#about">About</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#experience">Experience & Education</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact" class="btn-contact">Contact Me</a></li>
-          </ul>
-          <!-- Dark Mode Toggle Button -->
-          <button
-            id="theme-toggle"
-            class="theme-toggle-btn"
-            aria-label="Toggle Dark Mode"
-          >
-            <i class="fa-solid fa-moon"></i>
-          </button>
-          <div class="hamburger">
-            <i class="fa-solid fa-bars"></i>
-          </div>
-        </nav>
-      </div>
-    </header>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Ahmed Hegazy — Full-Stack .NET Developer | Computer Science student at Mansoura University." />
+  <title>Ahmed Hegazy | Full-Stack .NET Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
 
-    <!-- Hero Section -->
-    <section class="hero">
-      <div class="container hero-content">
-        <span class="greeting">Hello, I'm</span>
-        <h1>Ahmed Mohamed Ibrahim Hegazy</h1>
-        <h2>Full-Stack .NET Developer & CS Student</h2>
-        <p>
-          Passionate about building dynamic user interfaces and robust web
-          applications using .NET, turning ideas into secure and reliable
-          software solutions.
-        </p>
-        <div class="hero-btns">
-          <a href="#projects" class="btn btn-primary">View Projects</a>
-          <a href="#contact" class="btn btn-outline">Get In Touch</a>
-        </div>
-        <div class="social-icons">
-          <a href="https://github.com/Ahmed-Hegazy101" target="_blank"
-            ><i class="fa-brands fa-github"></i
-          ></a>
-          <a
-            href="https://linkedin.com/in/ahmed-hegazy-b3a91628a"
-            target="_blank"
-            ><i class="fa-brands fa-linkedin"></i
-          ></a>
-          <a href="mailto:ahmedhegazy4254@gmail.com"
-            ><i class="fa-solid fa-envelope"></i
-          ></a>
-        </div>
-      </div>
-    </section>
-
-    <!-- About Section -->
-    <section id="about" class="section">
-      <div class="container">
-        <div class="section-title">
-          <h2>About Me</h2>
-          <div class="underline"></div>
-        </div>
-        <div class="about-grid">
-          <div class="about-text">
-            <h3>Computer Science Student & Aspiring Software Engineer</h3>
-            <p>
-              Currently studying at the Faculty of Computers and Information,
-              Mansoura University (2023 - 2027). I possess practical experience
-              in developing web applications leveraging .NET technologies and
-              C#. I focus heavily on writing clean, scalable code and delivering
-              exceptional user experiences.
-            </p>
-            <div class="personal-info-list">
-              <div>
-                <i class="fa-solid fa-envelope"></i>
-                <span>ahmedhegazy4254@gmail.com</span>
-              </div>
-              <div>
-                <i class="fa-solid fa-phone"></i>
-                <span class="ltr-text">+20 102 496 1239</span>
-              </div>
-              <div>
-                <i class="fa-solid fa-location-dot"></i>
-                <span>Dakahlia, Mansoura, Egypt</span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Skills Section -->
-    <section id="skills" class="section bg-light">
-      <div class="container">
-        <div class="section-title">
-          <h2>Technical Skills</h2>
-          <div class="underline"></div>
-        </div>
-        <div class="skills-grid">
-          <div class="skill-card">
-            <i class="fa-solid fa-desktop"></i>
-            <h3>Front-End</h3>
-            <p>HTML5, CSS3, JavaScript</p>
-          </div>
-          <div class="skill-card">
-            <i class="fa-solid fa-server"></i>
-            <h3>Back-End</h3>
-            <p>C#, SQL Server, ASP.NET Core, Web API, MVC</p>
-          </div>
-          <div class="skill-card">
-            <i class="fa-solid fa-code-branch"></i>
-            <h3>Version Control</h3>
-            <p>Git, GitHub</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Experience & Education Section -->
-    <section id="experience" class="section">
-      <div class="container">
-        <div class="section-title">
-          <h2>Experience & Education</h2>
-          <div class="underline"></div>
-        </div>
-        <div class="timeline">
-          <div class="timeline-item">
-            <div class="timeline-dot"></div>
-            <div class="timeline-date">July 2026 - December 2026</div>
-            <div class="timeline-content">
-              <h3>Trainee Full-stack .Net Web Developer</h3>
-              <h4>Digital Egypt Pioneers Initiative (DEPI) - Dakahlia</h4>
-              <p>
-                Constructed and enhanced web applications using .NET
-                technologies, managed relational databases, and developed
-                efficient Web APIs and MVC frameworks.
-              </p>
-            </div>
-          </div>
-          <div class="timeline-item">
-            <div class="timeline-dot"></div>
-            <div class="timeline-date">October 2023 - August 2027</div>
-            <div class="timeline-content">
-              <h3>Bachelor of Science in Computer Science</h3>
-              <h4>
-                Mansoura University (Faculty of Computers and Information)
-              </h4>
-              <p>
-                Studying core computer science concepts, search algorithms,
-                software engineering principles, and database architecture.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Projects Section -->
-    <section id="projects" class="section bg-light">
-      <div class="container">
-        <div class="section-title">
-          <h2>Projects Gallery</h2>
-          <div class="underline"></div>
-        </div>
-
-        <div class="projects-grid">
-          <!-- Project 1 -->
-          <div class="project-card">
-            <div class="project-img-container">
-              <img
-                src="projects/image1.png"
-                alt="Dental Clinic Website"
-                class="gallery-img"
-              />
-              <div class="img-overlay">
-                <i class="fa-solid fa-expand"></i>
-              </div>
-            </div>
-            <div class="project-info">
-              <h3>Dental-Clinic-Website</h3>
-              <p>
-                A modern, fast, and fully responsive website for a dental clinic
-                built with vanilla frontend technologies focusing on clean
-                layout and smooth interaction.
-              </p>
-              <div class="project-buttons">
-                <a
-                  href="https://ahmed-hegazy101.github.io/Dental-Clinic-Website/"
-                  target="_blank"
-                  class="btn-project btn-demo"
-                >
-                  <i class="fa-solid fa-eye"></i> Live Demo
-                </a>
-                <a
-                  href="https://github.com/Ahmed-Hegazy101/Dental-Clinic-Website"
-                  target="_blank"
-                  class="btn-project btn-code"
-                >
-                  <i class="fa-brands fa-github"></i> Code
-                </a>
-              </div>
-            </div>
-          </div>
-
-          <!-- Project 2 -->
-          <div class="project-card">
-            <div class="project-img-container">
-              <img
-                src="projects/image.png"
-                alt="Image Compression Engine"
-                class="gallery-img"
-              />
-              <div class="img-overlay">
-                <i class="fa-solid fa-expand"></i>
-              </div>
-            </div>
-            <div class="project-info">
-              <h3>Image Compression Engine</h3>
-              <p>
-                A lightweight Python implementation for DSP and image
-                compression applying YUV color conversion and chroma subsampling
-                techniques.
-              </p>
-              <div class="project-buttons">
-                <a href="#" target="_blank" class="btn-project btn-demo">
-                  <i class="fa-solid fa-eye"></i> Live Demo
-                </a>
-                <a
-                  href="https://github.com/Ahmed-Hegazy101"
-                  target="_blank"
-                  class="btn-project btn-code"
-                >
-                  <i class="fa-brands fa-github"></i> Code
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Full Screen Lightbox Modal -->
-    <div id="lightbox" class="lightbox">
-      <span class="lightbox-close">&times;</span>
-      <img class="lightbox-content" id="lightbox-img" />
+  <!-- NAVBAR -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#home" class="nav-logo" id="nav-logo-link">
+        <span class="logo-monogram">AH</span>
+        <span class="logo-text">Ahmed Hegazy</span>
+      </a>
+      <ul class="nav-links" id="nav-links-list">
+        <li><a href="#home"     class="nav-link active" id="nav-home">Home</a></li>
+        <li><a href="#about"    class="nav-link" id="nav-about">About</a></li>
+        <li><a href="#skills"   class="nav-link" id="nav-skills">Skills</a></li>
+        <li><a href="#services" class="nav-link" id="nav-services">Services</a></li>
+        <li><a href="#projects" class="nav-link" id="nav-projects">Projects</a></li>
+        <li><a href="#contact"  class="nav-link" id="nav-contact">Contact</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger-btn" aria-label="Toggle menu">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </button>
     </div>
+  </nav>
 
-    <!-- Contact Section -->
-    <section id="contact" class="section">
-      <div class="container">
-        <div class="section-title">
-          <h2>Contact Me</h2>
-          <div class="underline"></div>
+  <!-- HERO -->
+  <section class="hero" id="home">
+    <canvas class="particles-canvas" id="particles-canvas"></canvas>
+    <div class="hero-content">
+      <div class="hero-photo-wrap">
+        <div class="hero-photo-ring"></div>
+        <img src="assets/profile.jpg" alt="Ahmed Hegazy" class="hero-photo" id="hero-profile-img" />
+        <div class="hero-photo-glow"></div>
+      </div>
+      <div class="hero-text">
+        <p class="hero-greeting">Hello, I am</p>
+        <h1 class="hero-name">Ahmed Hegazy</h1>
+        <div class="hero-role-wrap">
+          <span class="hero-role-prefix">I am a </span>
+          <span class="hero-role-typed" id="typed-text"></span>
+          <span class="hero-cursor">|</span>
         </div>
-        <div class="contact-box">
-          <p>
-            Feel free to reach out for inquiries, software collaborations, or
-            new professional opportunities.
+        <p class="hero-desc">
+          Passionate about building dynamic user interfaces and robust web applications
+          using .NET — crafting clean code and seamless user experiences.
+        </p>
+        <div class="hero-actions">
+          <a href="#projects" class="btn btn-primary" id="hero-view-projects">View Projects</a>
+          <a href="#contact"  class="btn btn-outline"  id="hero-contact-btn">Get In Touch</a>
+        </div>
+        <div class="hero-socials">
+          <a href="https://linkedin.com/in/ahmed-hegazy-b3a91628a" class="social-link" id="hero-linkedin" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+            <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+          </a>
+          <a href="https://github.com/Ahmed-Hegazy101" class="social-link" id="hero-github" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+            <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+    <a href="#about" class="scroll-indicator" id="scroll-down-btn" aria-label="Scroll down">
+      <span class="scroll-dot"></span>
+    </a>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="section about-section" id="about">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Get To Know Me</span>
+        <h2 class="section-title">About <span class="highlight">Me</span></h2>
+      </div>
+      <div class="about-grid">
+        <div class="about-photo-col">
+          <div class="about-photo-frame">
+            <img src="assets/profile-dev.jpg" alt="Ahmed at his development setup" class="about-photo" id="about-dev-img" loading="lazy" />
+            <div class="about-photo-accent"></div>
+          </div>
+          <div class="about-stats">
+            <div class="stat-card"><span class="stat-number">2+</span><span class="stat-label">Years Learning</span></div>
+            <div class="stat-card"><span class="stat-number">2+</span><span class="stat-label">Projects Built</span></div>
+            <div class="stat-card"><span class="stat-number">5+</span><span class="stat-label">Technologies</span></div>
+          </div>
+        </div>
+        <div class="about-text-col">
+          <h3 class="about-subtitle">Full-Stack .NET Developer &amp; CS Student</h3>
+          <p class="about-desc">
+            I am a senior Computer Science student at <strong>Mansoura University</strong>,
+            passionate about building dynamic user interfaces and robust web applications using .NET.
+            I focus on creating efficient web solutions and reliable backend systems.
           </p>
-          <div class="contact-details">
-            <a href="mailto:ahmedhegazy4254@gmail.com" class="contact-item">
-              <i class="fa-solid fa-envelope"></i>
-              <span>ahmedhegazy4254@gmail.com</span>
-            </a>
-            <a href="tel:+201024961239" class="contact-item">
-              <i class="fa-solid fa-phone"></i>
-              <span class="ltr-text">+20 102 496 1239</span>
-            </a>
+          <p class="about-desc">
+            Currently training as a <strong>Full-Stack .NET Web Developer</strong> at the
+            <strong>Digital Egypt Pioneers Initiative</strong>, where I am deepening my expertise
+            in modern web technologies, REST APIs, and scalable application architecture.
+          </p>
+          <div class="about-info-grid">
+            <div class="info-item"><span class="info-icon">EMAIL</span><div><span class="info-label">Email</span><span class="info-value">ahmedhegazy4254@gmail.com</span></div></div>
+            <div class="info-item"><span class="info-icon">PHONE</span><div><span class="info-label">Phone</span><span class="info-value">+20 102 496 1239</span></div></div>
+            <div class="info-item"><span class="info-icon">LOC</span><div><span class="info-label">Location</span><span class="info-value">Mansoura, Dakahlia</span></div></div>
+            <div class="info-item"><span class="info-icon">EDU</span><div><span class="info-label">University</span><span class="info-value">Mansoura University</span></div></div>
+          </div>
+          <div class="about-timeline">
+            <div class="timeline-item">
+              <div class="timeline-dot"></div>
+              <div class="timeline-content">
+                <span class="timeline-date">Jul 2026 – Dec 2026</span>
+                <h4 class="timeline-title">Full-Stack .NET Developer Trainee</h4>
+                <p class="timeline-company">Digital Egypt Pioneers Initiative — Dakahlia</p>
+              </div>
+            </div>
+            <div class="timeline-item">
+              <div class="timeline-dot"></div>
+              <div class="timeline-content">
+                <span class="timeline-date">Oct 2023 – Aug 2027</span>
+                <h4 class="timeline-title">B.Sc. Computer Science</h4>
+                <p class="timeline-company">Faculty of Computers and Information, Mansoura University</p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <!-- Footer -->
-    <footer class="footer">
-      <p>All Rights Reserved &copy; 2026 | Ahmed Mohamed Ibrahim Hegazy</p>
-    </footer>
+  <!-- SKILLS -->
+  <section class="section skills-section" id="skills">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">What I Know</span>
+        <h2 class="section-title">My <span class="highlight">Skills</span></h2>
+      </div>
+      <div class="skills-categories">
+        <div class="skills-category">
+          <div class="category-header"><span class="category-icon">FE</span><h3 class="category-title">Front-End</h3></div>
+          <div class="skills-grid">
+            <div class="skill-badge" id="skill-html"><span class="skill-abbr">H5</span><span>HTML5</span></div>
+            <div class="skill-badge" id="skill-css"><span class="skill-abbr">CSS</span><span>CSS3</span></div>
+            <div class="skill-badge" id="skill-js"><span class="skill-abbr">JS</span><span>JavaScript</span></div>
+          </div>
+        </div>
+        <div class="skills-category">
+          <div class="category-header"><span class="category-icon">BE</span><h3 class="category-title">Back-End</h3></div>
+          <div class="skills-grid">
+            <div class="skill-badge" id="skill-csharp"><span class="skill-abbr">C#</span><span>C#</span></div>
+            <div class="skill-badge" id="skill-dotnet"><span class="skill-abbr">.NET</span><span>ASP.NET Core</span></div>
+            <div class="skill-badge" id="skill-webapi"><span class="skill-abbr">API</span><span>Web API</span></div>
+            <div class="skill-badge" id="skill-mvc"><span class="skill-abbr">MVC</span><span>MVC</span></div>
+            <div class="skill-badge" id="skill-sql"><span class="skill-abbr">SQL</span><span>SQL Server</span></div>
+          </div>
+        </div>
+        <div class="skills-category">
+          <div class="category-header"><span class="category-icon">TL</span><h3 class="category-title">Tools</h3></div>
+          <div class="skills-grid">
+            <div class="skill-badge" id="skill-git"><span class="skill-abbr">GIT</span><span>Git</span></div>
+            <div class="skill-badge" id="skill-github"><span class="skill-abbr">GH</span><span>GitHub</span></div>
+            <div class="skill-badge" id="skill-python"><span class="skill-abbr">PY</span><span>Python</span></div>
+          </div>
+        </div>
+        <div class="skills-category full-width">
+          <div class="category-header"><span class="category-icon">CR</span><h3 class="category-title">Courses Completed</h3></div>
+          <div class="courses-grid">
+            <div class="course-card" id="course-html"><span class="course-num">4h</span><div class="course-info"><h4>HTML Course</h4><p>Elzero Web School — YouTube</p></div></div>
+            <div class="course-card" id="course-css"><span class="course-num">11h</span><div class="course-info"><h4>CSS Course</h4><p>Elzero Web School — YouTube</p></div></div>
+            <div class="course-card" id="course-js"><span class="course-num">18.5h</span><div class="course-info"><h4>JavaScript Bootcamp</h4><p>Elzero Web School — YouTube</p></div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
-    <!-- Main JavaScript -->
-    <script src="script.js"></script>
-  </body>
+  <!-- SERVICES -->
+  <section class="section services-section" id="services">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">What I Offer</span>
+        <h2 class="section-title">My <span class="highlight">Services</span></h2>
+      </div>
+      <p class="services-intro">
+        Delivering tailored, high-performance web solutions — from engaging user interfaces to robust server architectures. Choose a service below to start your project.
+      </p>
+
+      <div class="services-grid">
+        <!-- Front-End Card -->
+        <article class="service-card" id="service-frontend">
+          <div class="service-card-top">
+            <div class="service-icon-wrap service-icon--frontend">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="30" height="30"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+            </div>
+            <span class="service-badge">Client-Side &amp; UI</span>
+          </div>
+
+          <h3 class="service-title">Front-End Development</h3>
+          <p class="service-desc">
+            Crafting modern, fast, and fully responsive web interfaces with pixel-perfect precision, intuitive layouts, and fluid micro-animations.
+          </p>
+
+          <ul class="service-features">
+            <li>
+              <svg viewBox="0 0 20 20" fill="currentColor" width="16" height="16"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+              <span>Responsive &amp; Mobile-First Layouts</span>
+            </li>
+            <li>
+              <svg viewBox="0 0 20 20" fill="currentColor" width="16" height="16"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+              <span>Clean HTML5, Modern CSS3 &amp; JavaScript</span>
+            </li>
+            <li>
+              <svg viewBox="0 0 20 20" fill="currentColor" width="16" height="16"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+              <span>Smooth Animations &amp; Interactive UI</span>
+            </li>
+            <li>
+              <svg viewBox="0 0 20 20" fill="currentColor" width="16" height="16"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+              <span>Cross-Browser Compatibility &amp; SEO Friendly</span>
+            </li>
+          </ul>
+
+          <div class="service-cta">
+            <span class="service-cta-label">Get In Touch via:</span>
+            <div class="service-cta-buttons">
+              <a href="https://wa.me/201024961239?text=Hi%20Ahmed,%20I'm%20interested%20in%20your%20Front-End%20Development%20services." target="_blank" rel="noopener noreferrer" class="service-btn service-btn--wa" aria-label="WhatsApp Front-End">
+                <svg viewBox="0 0 24 24" fill="currentColor" width="17" height="17"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413Z"/></svg>
+                <span>WhatsApp</span>
+              </a>
+              <a href="https://linkedin.com/in/ahmed-hegazy-b3a91628a" target="_blank" rel="noopener noreferrer" class="service-btn service-btn--li" aria-label="LinkedIn Front-End">
+                <svg viewBox="0 0 24 24" fill="currentColor" width="17" height="17"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+                <span>LinkedIn</span>
+              </a>
+              <a href="mailto:ahmedhegazy4254@gmail.com?subject=Front-End%20Development%20Inquiry" class="service-btn service-btn--mail" aria-label="Gmail Front-End">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="17" height="17"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+                <span>Gmail</span>
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Back-End Card -->
+        <article class="service-card" id="service-backend">
+          <div class="service-card-top">
+            <div class="service-icon-wrap service-icon--backend">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="30" height="30"><rect x="2" y="2" width="20" height="8" rx="2" ry="2"/><rect x="2" y="14" width="20" height="8" rx="2" ry="2"/><line x1="6" y1="6" x2="6.01" y2="6"/><line x1="6" y1="18" x2="6.01" y2="18"/></svg>
+            </div>
+            <span class="service-badge service-badge--purple">Server-Side &amp; Data</span>
+          </div>
+
+          <h3 class="service-title">Back-End Development</h3>
+          <p class="service-desc">
+            Architecting secure, high-performance backends with C# and ASP.NET Core, building robust REST APIs, and modeling scalable databases.
+          </p>
+
+          <ul class="service-features">
+            <li>
+              <svg viewBox="0 0 20 20" fill="currentColor" width="16" height="16"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+              <span>RESTful Web API Design &amp; Integration</span>
+            </li>
+            <li>
+              <svg viewBox="0 0 20 20" fill="currentColor" width="16" height="16"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+              <span>ASP.NET Core &amp; Clean MVC Architecture</span>
+            </li>
+            <li>
+              <svg viewBox="0 0 20 20" fill="currentColor" width="16" height="16"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+              <span>SQL Server Database Modeling &amp; Optimization</span>
+            </li>
+            <li>
+              <svg viewBox="0 0 20 20" fill="currentColor" width="16" height="16"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+              <span>Authentication, Authorization &amp; App Security</span>
+            </li>
+          </ul>
+
+          <div class="service-cta">
+            <span class="service-cta-label">Get In Touch via:</span>
+            <div class="service-cta-buttons">
+              <a href="https://wa.me/201024961239?text=Hi%20Ahmed,%20I'm%20interested%20in%20your%20Back-End%20Development%20services." target="_blank" rel="noopener noreferrer" class="service-btn service-btn--wa" aria-label="WhatsApp Back-End">
+                <svg viewBox="0 0 24 24" fill="currentColor" width="17" height="17"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413Z"/></svg>
+                <span>WhatsApp</span>
+              </a>
+              <a href="https://linkedin.com/in/ahmed-hegazy-b3a91628a" target="_blank" rel="noopener noreferrer" class="service-btn service-btn--li" aria-label="LinkedIn Back-End">
+                <svg viewBox="0 0 24 24" fill="currentColor" width="17" height="17"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+                <span>LinkedIn</span>
+              </a>
+              <a href="mailto:ahmedhegazy4254@gmail.com?subject=Back-End%20Development%20Inquiry" class="service-btn service-btn--mail" aria-label="Gmail Back-End">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="17" height="17"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+                <span>Gmail</span>
+              </a>
+            </div>
+          </div>
+        </article>
+      </div>
+
+      <!-- Quick Custom Quote / Consultation Banner -->
+      <div class="services-banner">
+        <div class="services-banner-text">
+          <h4>Need a complete Full-Stack web application?</h4>
+          <p>Let's collaborate! Reach out to discuss your project requirements, scope, and timeline.</p>
+        </div>
+        <div class="services-banner-actions">
+          <a href="https://wa.me/201024961239?text=Hi%20Ahmed,%20I%20have%20a%20project%20in%20mind%20and%20would%20like%20to%20discuss%20it." target="_blank" rel="noopener noreferrer" class="btn btn-primary" id="services-wa-cta">
+            Chat on WhatsApp
+          </a>
+          <a href="#contact" class="btn btn-outline" id="services-contact-cta">All Contact Options</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section class="section projects-section" id="projects">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">What I have Built</span>
+        <h2 class="section-title">My <span class="highlight">Projects</span></h2>
+      </div>
+      <div class="projects-grid">
+        <article class="project-card" id="project-card-dental">
+          <div class="project-img-wrap" data-img="projects/project1.png" data-title="Dental Clinic Website" tabindex="0" role="button" aria-label="View Dental Clinic Website fullscreen">
+            <img src="projects/project1.png" alt="Dental Clinic Website" class="project-img" loading="lazy" />
+            <div class="project-overlay"><div class="overlay-content"><span class="zoom-icon">&#128269;</span><p>View Full Image</p></div></div>
+          </div>
+          <div class="project-info">
+            <div class="project-meta">
+              <h3 class="project-title">Dental Clinic Website</h3>
+              <a href="https://github.com/Ahmed-Hegazy101" target="_blank" rel="noopener noreferrer" class="project-github-link" id="dental-github-link" aria-label="GitHub">
+                <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+              </a>
+            </div>
+            <p class="project-desc">A modern, fast, and fully responsive website for a dental clinic built using vanilla frontend technologies. Focuses on clean layout, precise styling, and smooth user interactions.</p>
+            <div class="project-tags"><span class="tech-tag">HTML</span><span class="tech-tag">CSS</span><span class="tech-tag">JavaScript</span></div>
+            <div class="project-actions">
+              <a href="https://github.com/Ahmed-Hegazy101/Dental-Clinic-Website" target="_blank" rel="noopener noreferrer" class="proj-btn proj-btn-code" id="dental-code-btn">
+                <svg viewBox="0 0 24 24" fill="currentColor" width="16" height="16"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+                View Code
+              </a>
+              <a href="https://ahmed-hegazy101.github.io/Dental-Clinic-Website/" target="_blank" rel="noopener noreferrer" class="proj-btn proj-btn-demo" id="dental-demo-btn">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" height="16"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+                Live Demo
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card" id="project-card-compression">
+          <div class="project-img-wrap" data-img="projects/project2.png" data-title="Image Compression Engine" tabindex="0" role="button" aria-label="View Image Compression Engine fullscreen">
+            <img src="projects/project2.png" alt="Image Compression Engine" class="project-img" loading="lazy" />
+            <div class="project-overlay"><div class="overlay-content"><span class="zoom-icon">&#128269;</span><p>View Full Image</p></div></div>
+          </div>
+          <div class="project-info">
+            <div class="project-meta">
+              <h3 class="project-title">Image Compression Engine</h3>
+              <a href="https://github.com/Ahmed-Hegazy101/DSP_Project" target="_blank" rel="noopener noreferrer" class="project-github-link" id="compression-github-link" aria-label="GitHub">
+                <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+              </a>
+            </div>
+            <p class="project-desc">A lightweight Python implementation of a lossy image compression pipeline using DSP concepts. Converts BGR/RGB to YUV, applies chroma subsampling and bit-depth quantization to reduce file size while maintaining visual quality.</p>
+            <div class="project-tags"><span class="tech-tag">Python</span><span class="tech-tag">DSP</span><span class="tech-tag">Computer Vision</span><span class="tech-tag">YUV</span></div>
+            <div class="project-actions">
+              <a href="https://github.com/Ahmed-Hegazy101/DSP_Project" target="_blank" rel="noopener noreferrer" class="proj-btn proj-btn-code" id="compression-code-btn">
+                <svg viewBox="0 0 24 24" fill="currentColor" width="16" height="16"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+                View Code
+              </a>
+              <span class="proj-btn proj-btn-no-demo" id="compression-demo-btn" title="Python CLI — no web demo available">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" height="16"><circle cx="12" cy="12" r="10"/><line x1="4.93" y1="4.93" x2="19.07" y2="19.07"/></svg>
+                No Demo
+              </span>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section contact-section" id="contact">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Lets Connect</span>
+        <h2 class="section-title">Get In <span class="highlight">Touch</span></h2>
+      </div>
+      <p class="contact-intro">I am currently open to new opportunities and collaborations. Whether you have a project in mind or just want to say hi, feel free to reach out!</p>
+      <div class="contact-grid">
+        <a href="mailto:ahmedhegazy4254@gmail.com" class="contact-card" id="contact-email">
+          <div class="contact-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="28" height="28"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg></div>
+          <div class="contact-card-text"><span class="contact-label">Email</span><span class="contact-value">ahmedhegazy4254@gmail.com</span></div>
+        </a>
+        <a href="https://wa.me/201024961239" class="contact-card" id="contact-phone" target="_blank" rel="noopener noreferrer">
+          <div class="contact-card-icon contact-card-icon--wa"><svg viewBox="0 0 24 24" fill="currentColor" width="28" height="28"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413Z"/></svg></div>
+          <div class="contact-card-text"><span class="contact-label">WhatsApp</span><span class="contact-value">+20 102 496 1239</span></div>
+        </a>
+        <a href="https://linkedin.com/in/ahmed-hegazy-b3a91628a" target="_blank" rel="noopener noreferrer" class="contact-card" id="contact-linkedin">
+          <div class="contact-card-icon"><svg viewBox="0 0 24 24" fill="currentColor" width="28" height="28"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg></div>
+          <div class="contact-card-text"><span class="contact-label">LinkedIn</span><span class="contact-value">ahmed-hegazy-b3a91628a</span></div>
+        </a>
+        <a href="https://github.com/Ahmed-Hegazy101" target="_blank" rel="noopener noreferrer" class="contact-card" id="contact-github-card">
+          <div class="contact-card-icon"><svg viewBox="0 0 24 24" fill="currentColor" width="28" height="28"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg></div>
+          <div class="contact-card-text"><span class="contact-label">GitHub</span><span class="contact-value">Ahmed-Hegazy101</span></div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <a href="#home" class="footer-logo" id="footer-logo-link">AH</a>
+        <p class="footer-copy">&copy; 2026 Ahmed Mohamed Ibrahim Hegazy. All rights reserved.</p>
+        <div class="footer-socials">
+          <a href="https://linkedin.com/in/ahmed-hegazy-b3a91628a" class="footer-social" id="footer-linkedin" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg></a>
+          <a href="https://github.com/Ahmed-Hegazy101" class="footer-social" id="footer-github" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- LIGHTBOX -->
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Image viewer">
+    <div class="lightbox-backdrop" id="lightbox-backdrop"></div>
+    <button class="lightbox-close" id="lightbox-close" aria-label="Close">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" width="24" height="24"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+    </button>
+    <div class="lightbox-content" id="lightbox-content">
+      <img src="" alt="" class="lightbox-img" id="lightbox-img" />
+      <p class="lightbox-caption" id="lightbox-caption"></p>
+    </div>
+  </div>
+
+  <!-- BACK TO TOP -->
+  <button class="back-to-top" id="back-to-top-btn" aria-label="Back to top">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" width="20" height="20"><polyline points="18 15 12 9 6 15"/></svg>
+  </button>
+
+  <script src="script.js"></script>
+</body>
 </html>
